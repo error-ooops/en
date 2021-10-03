@@ -1,0 +1,32 @@
+.documentaries__content{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 200px;
+    background: #F4F4F4;
+    padding-bottom: 147px;
+}
+
+.documentaries__shorts{
+    width: 65%;
+    height: 929px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 147px auto;
+    grid-gap: 20px;
+    grid-row-gap: 60px;
+}
+
+.shorts{
+    text-align: left;
+}
+
+.shorts > p{
+    padding-top: 30px;
+    width: 70%;
+}
+
+.highlited{
+    font-weight: 600;
+}

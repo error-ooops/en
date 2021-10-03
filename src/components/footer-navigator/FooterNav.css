@@ -1,0 +1,23 @@
+.footer__nav{
+    height: 150px;
+    width: 65%;
+    margin: 50px auto 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer__item{
+    list-style-type: none;
+    margin: 5px 0px;
+}
+
+.footer__link{
+    text-transform: uppercase;
+    font-size: var(--secondary-font-size);
+    color: var(--primary-shape-dark);
+    text-decoration: none;
+}
+
+.active__footerLink{
+    color: #A1A77C;
+}

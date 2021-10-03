@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: BlackOld;
+  src: url('../assets/fonts/black\ old.ttf');
+}
+
+:root{
+  --primary-button-red: #BC2222;
+  --primary-shape-dark: #292929;
+  --primary-weird-green: #A1A77C;
+  --primary-light-color: #ffffff;
+  --primary-button-radious: 200px;
+  --primary-header-height: 144.9px;
+  --primary-font-size: 24px;
+  --secondary-font-size: 21px;
+  --primary-font-family:'Raleway', sans-serif;
+  --primary-dark-color: #000000;
+  --black-old-font: BlackOld;
+  --secondary-shape-dark: #1B1B1B;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

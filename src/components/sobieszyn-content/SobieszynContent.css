@@ -1,0 +1,69 @@
+.sobieszyn__content{
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.sb__title{
+    font-size: 96px;
+    font-family: var(--black-old-font);
+    font-weight: normal;
+}
+
+.sb{
+    width: 65%;
+    margin: 25px auto;
+}
+
+.sb__description{
+    font-family: var(--black-old-font);
+    font-size: var(--primary-font-size);
+    font-weight: normal;
+    width: 65%;
+    margin: 50px auto;
+}
+
+.sb__collage{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.sb__collage > img{
+    width: 50%;
+    object-fit: cover;
+}
+
+.sb__supportive{
+    width: 65%;
+    background-color: var(--primary-light-color);
+    transform: translateY(-100px);
+    position: relative;
+    margin: 0px auto;
+}
+
+.sb__text{
+    text-align: left;
+    padding: 102px;
+    font-family: var(--primary-font-family);
+    font-size: var(--secondary-font-size);
+}
+
+.sb__secondary{
+    width: 100%;
+    margin: 0vw;
+    background: #F4F4F4;
+}
+
+.secondary{
+    width: 65%;
+    margin: auto;
+    padding: 110px 102px;
+}
+
+.dark{
+    background-color: var(--primary-shape-dark);
+    margin-top: 200px;
+    color: var(--primary-light-color);
+}
