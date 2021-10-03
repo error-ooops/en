@@ -21,7 +21,8 @@ function Header() {
               <li className="header__language">EN</li>
             </ul>
             <NavLink to="/almanac"><button className="outlined__button">almanac</button></NavLink>
-            <button className="filled__button">get involved</button>
+            <NavLink to="/getinvolved"> <button className="filled__button">get involved</button></NavLink>
+           
           </div>
           <ul className="header__routeCollection">
             {nav_links?.map((collectionItem) => (

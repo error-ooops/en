@@ -1,0 +1,71 @@
+.about_team{
+    width: 58%;
+    margin: auto;
+    padding-bottom: 130px;
+}
+.about_teamTitle{
+    text-align: center;
+    padding-top: 120px;
+    font-size: 64px;
+    font-family: var(--black-old-font);
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.about_teamLine{
+    width: 100%;
+    height: 2px;
+    background: #000;
+}
+.about_teamGroup{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about_teamCard{
+    width: 26%;
+    text-align: center;
+    padding-top: 100px;
+    height: 440px;
+    overflow: hidden;
+    transition: .5s;
+}
+.about_teamCardActive{
+    height: 910px;
+}
+.about_teamCardActive > .about_teamCardBtnShow{
+    display: none;
+}
+.about_teamCard > img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: auto;
+}
+.about_teamCard > h3{
+    font-family: var(--black-old-font);
+    font-size: 24px ;
+    font-weight: 400;
+    padding-top: 50px;
+}
+.about_teamCard > h4{
+    font-family: var(--black-old-font);
+    font-size: 18px ;
+    font-weight: 500;
+    padding-top: 12px;
+}
+.about_teamCard > p{
+    font-size: 14px;
+    font-family: var(--primary-font-family);
+    padding-top: 20px;
+}
+.about_teamCardBtnShow, .about_teamCardBtnHide{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--primary-font-family);
+    color:#A1A77C;
+    padding-top: 15px;
+}

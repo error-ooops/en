@@ -6,6 +6,8 @@ import Pilica from './routes/pilica/Pilica';
 import Sobieszyn from './routes/sobieszyn/Sobieszyn';
 import Almanac from './routes/almanac/Almanac';
 import Documentaries from './routes/short documentaries/Documentaries';
+import About from './routes/about/About'
+import GetInvolved from './routes/get-involved/GetInvolved';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Route exact path="/" component={Home}/> 
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/almanac" component={Almanac} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/getinvolved" component={GetInvolved} />
           <Route exact path="/projects/pilica" component={Pilica} />
           <Route exact path="/projects/sobieszyn" component={Sobieszyn} />
           <Route exact path="/projects/shortdocumentaries" component={Documentaries} />

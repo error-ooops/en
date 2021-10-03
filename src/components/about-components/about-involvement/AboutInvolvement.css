@@ -1,0 +1,62 @@
+.about_involvement{
+    width: 100%;
+    height: 1540px;
+    background: url('../../../assets/stock/about-inv.png') no-repeat center/cover;
+    position: relative;
+}
+.about_involvement::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(27, 27, 27, 0.55);
+}
+.about_involvement_title{
+    padding-top: 185px;
+    padding-bottom: 26px;
+    font-size: 96px;
+    font-weight: 400;
+    font-family: var(--black-old-font);
+    text-align: center;
+    color: var(--primary-light-color);
+    position: relative;
+    z-index: 2;
+}
+.about_involvementContent{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    color: var(--primary-light-color);
+    position: relative;
+    z-index: 2;
+}
+.about_involvementLeft{
+    padding-top: 300px;
+}
+.about_involvementContent_item{
+    width: 80%;
+}
+.about_involvementContent_item > h2{
+    font-family: var(--black-old-font);
+    font-weight: 400;
+    font-size: 64px;
+    padding-bottom: 32px;
+    padding-top: 74px;
+}
+.about_involvementLine{
+    width: 100%;
+    height: 2px;
+    background: var(--primary-light-color);
+}
+.about_involvementContent_item > p{
+    font-weight: 400;
+    font-family: var(--primary-font-family);
+    font-size: 21px;
+    padding-top: 43px;
+}
+.about_involvementContent_item >span{
+    padding-top: 20px;
+    display: inline-block;
+}

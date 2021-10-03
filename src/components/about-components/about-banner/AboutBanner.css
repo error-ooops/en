@@ -1,0 +1,108 @@
+.about_bannerTop{
+    width: 100%;
+    height: 763px;
+    background: url('../../../assets/stock/about_banner.png') no-repeat center/cover;
+    position: relative;
+}
+.about_bannerTop::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( #1b1b1b80, #00000000);
+    z-index: 1;
+}
+.about_bannerTop > h1{
+    font-size: 220px;
+    font-weight: 400;
+    color: var(--primary-light-color);
+    position: relative;
+    z-index: 3;
+    font-family: var(--black-old-font);
+    padding-top: 150px;
+    padding-left: 340px;
+}
+.about_past{
+    width: 85%;
+    margin-left: 15%;
+    height: 720px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: -180px;
+    z-index: 3;
+    background: var(--primary-light-color);
+    padding: 88px;
+    display: flex;
+}
+.about_pastText{
+    width: 55%;
+}
+.about_pastText_Title{
+    font-family: var(--black-old-font);
+    font-size: 64px;
+    font-weight: 400;
+    padding-bottom: 22px;
+}
+.about_line{
+    width: 780px;
+    height: 2px;
+    background: #1B1B1B;
+}
+
+.about_pastText_desc{
+    font-family: var(--primary-font-family);
+    font-size: 21px;
+    line-height: 25px;
+    padding-top: 30px;
+}
+.about_pastImage {
+    width: 45%;
+    height: 100%;
+    position: relative;
+}
+.about_pastImage > img{
+    width: 650px;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    right: -87px;
+    bottom: -200px;
+}
+.about_mission{
+    width: 85%;
+    margin-left: 15%;
+    height: 580px;
+    position: relative;
+    top: -100px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+}
+.about_missionImage > img{
+    width: 400px;
+    height: 562px;
+    object-fit: cover;
+}
+.about_missionText{
+    padding-left: 89px;
+    width: 55%;
+}
+.about_middle{
+    width: 100%;
+    height: 504px;
+    background: #A1A77C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about_middle > p{
+    text-align: center;
+    width: 52%;
+    font-size: 24px;
+    font-family: var(--primary-font-family);
+    color: var(--primary-light-color);
+    padding-top: 20px;
+}
