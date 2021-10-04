@@ -14,7 +14,7 @@ function Projects({match}) {
     return (
         <div className="projects">
             <Header />
-            <Banner bannerImage={project_banner} config={true}/>
+            <Banner bannerImage={project_banner} title="Projects" config={true}/>
             <ProjectContent/>
             <ProjectMembership/>
             <FooterNav/>

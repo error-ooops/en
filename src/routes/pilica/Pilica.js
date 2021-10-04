@@ -12,7 +12,7 @@ function Pilica({match}) {
     return (
         <div className="pilica">
             <Header/>
-            <Banner bannerImage={project_banner} config={true}/>
+            <Banner bannerImage={project_banner} title="Projects" config={true}/>
             <div className="container">
                 <PilicaContent/>
                 <FooterNav/>

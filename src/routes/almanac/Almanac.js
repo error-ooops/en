@@ -11,7 +11,7 @@ function Almanac() {
   return (
     <div className="almanac">
       <Header />
-      <Banner bannerImage={al_banner} config={false} />
+      <Banner bannerImage={al_banner} title="Almanac" config={false} />
       <AlmanacContent al__image={al_banner} />
       <div className="footer__bottom">
         <p>

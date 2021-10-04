@@ -2,12 +2,12 @@ import React from "react";
 import "./Banner.css";
 import { NavLink } from "react-router-dom";
 
-function Banner({ bannerImage, config }) {
+function Banner({ bannerImage, config, title }) {
   return (
     <div className="banner" style={{ backgroundImage: `url(${bannerImage})` }}>
       <div className="banner__content">
-        <h1 className="banner__title">Projects</h1>
-        <ul className="banner__collection">
+        <h1 className="banner__title">{title}</h1>
+        {config ? <ul className="banner__collection">
           <li className="banner__item">
             <NavLink activeClassName="active__bannerLink" to={`/projects/sobieszyn`}>Sobieszyn</NavLink>
           </li>
@@ -17,7 +17,7 @@ function Banner({ bannerImage, config }) {
           <li className="banner__item">
             <NavLink activeClassName="active__bannerLink" to="/projects/shortdocumentaries">Short Documentaries</NavLink>
           </li>
-        </ul>
+        </ul> : <> </>}
       </div>
       {
         config ? <div className="banner__description">

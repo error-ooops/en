@@ -12,7 +12,7 @@ function Documentaries() {
     return (
         <div className="documentaries">
             <Header/>
-            <Banner bannerImage={project_banner} config={true}/>
+            <Banner bannerImage={project_banner} title="Projects" config={true}/>
             <DocumentariesContent/>
             <div className="container short__background">
                 <FooterNav/>
