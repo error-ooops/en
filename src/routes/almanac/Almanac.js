@@ -8,6 +8,7 @@ import { NavLink } from 'react-router-dom'
 import AlmanacContent from "../../components/almanac-content/AlmanacContent";
 
 function Almanac() {
+  document.title = "Enheritage | Almanac";
   return (
     <div className="almanac">
       <Header />

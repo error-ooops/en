@@ -7,6 +7,8 @@ import { NavLink } from 'react-router-dom';
 import ContactContent from '../../components/contact-content/ContactContent';
 
 function Contact() {
+  document.title = "Enheritage | Contact";
+
     return (
         <div className="contact">
             <Header/>

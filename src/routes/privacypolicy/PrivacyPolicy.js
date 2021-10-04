@@ -5,6 +5,7 @@ import "./PrivacyPolicy.css";
 import { NavLink } from 'react-router-dom';
 
 function PrivacyPolicy() {
+  document.title = "Enheritage | Privacy and Policy";
   return (
     <div className="privacypolicy">
       <Header />

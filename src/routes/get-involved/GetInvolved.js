@@ -6,6 +6,7 @@ import GetInvolvedCarousel from '../../components/get-involved-components/involv
 import GetInvolvedMiddle from '../../components/get-involved-components/involved-middle/GetInvolvedMiddle'
 
 function GetInvolved() {
+  document.title = "Enheritage | Get Involved";
     return (
         <div className="get_involved">
             <GetInvolvedBanner/>

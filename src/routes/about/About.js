@@ -6,6 +6,7 @@ import AboutTeam from '../../components/about-components/about-team/AboutTeam'
 import './About.css'
 
 function About() {
+  document.title = "Enheritage | About";
     return (
         <div className="about">
             <div className="container">

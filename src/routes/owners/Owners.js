@@ -7,6 +7,7 @@ import OwnerContent from "../../components/owners-content/OwnerContent";
 import { NavLink } from 'react-router-dom';
 
 function Owners() {
+  document.title = "Enheritage | Owners";
   return (
     <div className="owners">
       <Header />

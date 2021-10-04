@@ -4,6 +4,7 @@ import Header from '../../components/header/Header';
 import BannerSubroute from '../../components/banner-linkedfooter/BannerSubroute';
 
 function Statue() {
+  document.title = "Enheritage | Statue";
     return (
         <div className="statue">
            <Header />
