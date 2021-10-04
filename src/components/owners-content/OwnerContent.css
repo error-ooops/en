@@ -1,0 +1,42 @@
+.owner__firstText{
+    padding-top: 250px;
+    width: 65%;
+    margin: auto;
+}
+
+.owner__mainImage{
+    width: 60%;
+    margin: auto;
+}
+
+.owner__mainImage > img{
+    width: 100%;
+}
+
+.main__text{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.owner__images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    width: 65%;
+    height: 600px;
+    padding: 10px;
+    margin: auto;
+    grid-gap: 10px;
+}
+
+.owner__imageWrapper > img{
+    width: 100%;
+}
+
+.owner__imageWrapper > p{
+    padding: 37px 0px 147px 0px;
+    font-size: var(--secondary-font-size);
+    font-family: var(--primary-font-family);
+}

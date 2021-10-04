@@ -89,3 +89,33 @@
     left: 50%;
     transform: translateX(-50%);
 }
+
+.owners__title{
+    font-size: 64px;
+    font-family: var(--black-old-font);
+    font-weight: normal;
+}
+
+.owner__line{
+    width: 120%;
+    margin: 23px 0px 40px 0px;
+}
+
+.owners__description{
+    position: absolute;
+    width: 80%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 89px 30% 63px 100px;
+    bottom: -150px;
+    right: 0;
+    z-index: 2;
+}
+
+.owners__descriptionText{
+    width: 120%;
+    font-family: var(--primary-font-family);
+    font-size: var(--secondary-font-size);
+
+}

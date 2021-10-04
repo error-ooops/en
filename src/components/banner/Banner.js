@@ -2,7 +2,7 @@ import React from "react";
 import "./Banner.css";
 import { NavLink } from "react-router-dom";
 
-function Banner({ bannerImage, config, title }) {
+function Banner({ bannerImage, config, title, ownerSpecial }) {
   return (
     <div className="banner" style={{ backgroundImage: `url(${bannerImage})` }}>
       <div className="banner__content">
@@ -31,6 +31,14 @@ function Banner({ bannerImage, config, title }) {
         <button className="filled__dark">find out more</button>
       </div> : <></>
       }
+      {ownerSpecial ? <div className="owners__description">
+        <h1 className="owners__title">
+          Especially Crafted for you!
+        </h1>
+        
+        <div className="seprator__line owner__line"></div>
+          <p className="owners__descriptionText">There is something about a moment in time that can’t be replicated, an experience that is your very own, an adventure with others that is deeply personal and memorable.</p>
+      </div> : <></>}
     </div>
   );
 }

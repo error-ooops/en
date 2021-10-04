@@ -35,7 +35,7 @@
     height: 237px;
     display: flex;
     align-items: center;
-    background-color: var(--primary-shape-dark);
+    background-color: var(--secondary-shape-dark);
 }
 
 .footer__bottom > p{

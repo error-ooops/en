@@ -46,8 +46,8 @@ function Footer() {
       <div className="footer__bottom">
           <p>Copyright © 2021 New Heritage Poland — Wszelkie prawa zastrzeżone.</p>
           <ul className="footer__bottomCollection">
-              <li className="footer__bottomItem"> <NavLink to="/">PRIVACY POLICY</NavLink></li>
-              <li className="footer__bottomItem"> <NavLink to="/">STATUTE</NavLink> </li>
+              <li className="footer__bottomItem"> <NavLink to="/privacypolicy">PRIVACY POLICY</NavLink></li>
+              <li className="footer__bottomItem"> <NavLink to="/statue">STATUTE</NavLink> </li>
           </ul>
       </div>
     </div>

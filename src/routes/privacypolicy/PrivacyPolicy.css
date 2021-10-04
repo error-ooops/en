@@ -1,0 +1,21 @@
+.pp__title{
+    font-family: var(--black-old-font);
+    font-size: 64px;
+    font-weight: normal;
+}
+
+.pp_content{
+    width: 50%;
+    margin: auto;
+    margin-top: 125px;
+}
+
+.pp__mainText{
+    font-family: var(--primary-font-family);
+    font-size: var(--secondary-font-size);
+    padding-bottom: 125px;
+}
+
+.pp__mainText > ul {
+    padding-left: 30px;
+}
